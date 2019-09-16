@@ -13,7 +13,7 @@
 
 #home {
 	background-color: #f1f1f1;
-	margin: auto 60px;
+	margin: 30px 60px;
 	padding: 50px;
 	text-align: left;
 }
@@ -31,13 +31,27 @@
 	padding: 30px 60px;
 }
 
-#home > h2 {
+#home > h2, #services > div > h2 {
 	font-size: 90px;
 	margin: 0;
 }
 
-#home > span {
+#home > span, #services > div > span {
 	font-size: 80px;
+}
+
+#services {
+	margin: 80px 60px;
+}
+
+#services > div {
+	background-color: #f1f1f1;
+	padding: 50px;
+}
+
+#services > ul {
+	color: #C4A22F;
+	list-style: url('../img/right-chevron.svg');
 }
 
 #slideshow {
