@@ -4,6 +4,7 @@
 
 body {
 	box-sizing: border-box;
+	color: #555;
 	margin: 0 auto;
 }
 
@@ -43,7 +44,7 @@ nav > span {
 }
 
 #brand > h1 {
-	color: #555;
+	/*color: #555;*/
 	font-size: 64px;
 	grid-column: 2/3;
 	margin: 0;
