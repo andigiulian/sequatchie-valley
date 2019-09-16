@@ -11,6 +11,35 @@
 	background-image: url("../img/husky.jpg");
 }
 
+#home {
+	background-color: #f1f1f1;
+	margin: auto 60px;
+	padding: 50px;
+	text-align: left;
+}
+
+#home > div {
+	padding: 40px 0;
+	text-align: center;
+}
+
+#home > div > button {
+	background-color: #F56A56;
+	border: none;
+	color: #fff;
+	font-size: 40px;
+	padding: 30px 60px;
+}
+
+#home > h2 {
+	font-size: 90px;
+	margin: 0;
+}
+
+#home > span {
+	font-size: 80px;
+}
+
 #slideshow {
 	height: 700px;
 	width: 100%;
