@@ -1,3 +1,51 @@
+input[type=submit] {
+	background-color: #F56A56;
+	border: none;
+	color: #fff;
+	font-size: 40px;
+	display: block;
+	padding: 30px 0;
+	width: 100%;
+}
+
+input[type=text] {
+	border: none;
+	font-size: 40px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+}
+
+textarea {
+	border: none;
+	font-size: 40px;
+	height: 200px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 100%;
+}
+
+.contact, .contact-hours, .contact-form {
+	padding-top: 60px;
+}
+
+.contact > h3, .contact-hours > h3, .contact-form > h3 {
+	display: inline;
+}
+
+.heading > h2 {
+	font-size: 90px;
+	margin: 0;
+}
+
+.heading > span {
+	font-size: 80px;
+}
+
+.hours {
+	font-weight: bold;
+}
+
 .image1, .image2, .image3 {
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -9,6 +57,47 @@
 
 .image1 {
 	background-image: url("../img/husky.jpg");
+}
+
+.layer {
+	background-color: rgba(52, 119, 194, 0.8);
+	color: #fff;
+	height: 100%;
+	width: 100%;
+}
+
+.layer > .heading {
+	margin: 30px;
+	padding: 40px 40px 0;
+}
+
+.layer > div > p {
+	font-size: 40px;
+	padding: 0 70px 20px;
+}
+
+.layer > div > p:last-of-type {
+	padding-bottom: 130px;
+}
+
+#about {
+	background-image: url("../img/office.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contact {
+	background-color: #f1f1f1;
+	padding: 60px;
+}
+
+#contact > h2 {
+	font-size: 90px;
+	margin: 0;
+}
+
+#contact > span {
+	font-size: 80px;
 }
 
 #home {
@@ -31,26 +120,31 @@
 	padding: 30px 60px;
 }
 
-#home > h2, #services > div > h2 {
+#home > h2 {
 	font-size: 90px;
 	margin: 0;
 }
 
-#home > span, #services > div > span {
+#home > span {
 	font-size: 80px;
+}
+
+#map {
+	border: 15px solid #fff;
+	margin: 80px 0 0;
+	width: 100%;
+}
+
+#services > .heading {
+	background-color: #f1f1f1;
+	padding: 50px;
 }
 
 #services {
 	margin: 80px 60px;
 }
 
-#services > div {
-	background-color: #f1f1f1;
-	padding: 50px;
-}
-
 #services > ul {
-	color: #C4A22F;
 	list-style: url('../img/right-chevron.svg');
 }
 
