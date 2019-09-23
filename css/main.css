@@ -95,33 +95,40 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-	nav {
-		align-items: center;
+	body {
 		display: grid;
-		grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-		grid-template-rows: min-content;
-		margin: auto;
+		grid-template-columns: 1fr 2fr 1fr;
+	}
+
+	main {
+		grid-column: 1/4;
+	}
+
+	nav {
+		display: grid;
+		grid-column: 2/3;
+		grid-template-columns: 1fr 2fr 1fr;
 	}
 
 	.donate-btn {
 		border-radius: 5px;
 		font-size: 20px;
 		font-weight: bold;
-		grid-column: 4/5;
+		grid-column: 3/4;
 		padding: 12px 0;
 	}
 
 	.gray {
 		display: grid;
-		grid-column: 1/8;
-		grid-row: 1/2;
-		grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+		grid-column: 1/4;
+		grid-template-columns: 1fr 2fr 1fr;
 	}
 
 	.gray > span {
-		grid-column: 4/5;
+		grid-column: 2/3;
 		font-size: 14px;
-		padding: 10px;
+		margin: 0;
+		padding: 10px 0;
 		text-align: right;
 	}
 
@@ -130,9 +137,8 @@ body {
 	}
 
 	#brand {
-		/*border: 1px solid red;*/
 		display: inline-block;
-		grid-column: 2/3;
+		grid-column: 1/2;
 		padding: 0;
 		text-align: left;
 	}
@@ -151,9 +157,9 @@ body {
 	}
 
 	#nav-collapse {
-		/*border: 1px solid red;*/
+		align-items: center;
 		display: grid;
-		grid-column: 3/4;
+		grid-column: 2/3;
 		grid-template-columns: repeat(6, 1fr);
 		list-style: none;
 		padding: 0;
