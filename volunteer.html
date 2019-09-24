@@ -12,14 +12,14 @@
 	<link rel="stylesheet" type="text/css" href="css/volunteer.css">
 </head>
 <body>
+	<div class="gray">
+		<span>CALL US: 423-949-7799</span>
+	</div>
 	<nav>
 		<div id="brand">
 			<h1>Sequatchie Valley</h1>
 			<span>Low Cost Spay & Neuter</span>
 			<button class="navbar-toggle"><i class="far fa-bars fa-5x"></i></button>
-		</div>
-		<div class="gray">
-			<span>CALL US: 123-456-7890</span>
 		</div>
 		<ul id="nav-collapse">
 			<li><a href="index.html">HOME</a></li>
@@ -37,11 +37,31 @@
 			<h1>VOLUNTEER</h1>
 		</div>
 		<div>
-			<h4>Volunteer at Sequatchie Valley today!</h4>
-			<p>Dolore laborum burgdoggen id, andouille eu dolore ut ipsum ut in occaecat beef nostrud biltong. Pariatur et in, jerky sed doner burgdoggen veniam. Flank turkey beef ribs salami.</p>
-			<div>
-				<a href="">BECOME A VOLUNTEER</a>
-			</div>
+			<h4>Volunteer at Sequatchie Valley Low Cost Spay & Neuter today!</h4>
+			<p>SVSN is always in need of responsible volunteers! There are a number of ways in which you can help. Fill out the contact form below, or give us a call at 423-949-7799 to find out how you can help SVSN be Heads and Tails above the rest!</p>
+			<form action="volunteer_submit" method="get" accept-charset="utf-8">
+				<div class="form-element">
+					<input type="text" name="first-name" id="first-name" placeholder="First Name">
+				</div>
+				<div class="form-element">
+					<input type="text" name="last-name" id="last-name" placeholder="Last Name">
+				</div>
+				<div class="form-element">
+					<input type="text" name="email" id="email" placeholder="Email">
+				</div>
+				<div class="form-element">
+					<input type="text" name="phone" id="phone" placeholder="Phone">
+				</div>
+				<div class="form-element">
+					<input type="text" name="address" id="address" placeholder="Address">
+				</div>
+				<div class="form-element">
+					<textarea name="message" id="message" placeholder="Type your message here"></textarea>
+				</div>
+				<div class="form-element">
+					<input type="submit" value="Submit">
+				</div>
+			</form>
 		</div>
 	</main>
 
