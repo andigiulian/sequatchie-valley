@@ -23,12 +23,12 @@
 				<button class="navbar-toggle"><i class="far fa-bars fa-5x"></i></button>
 			</div>
 			<ul id="nav-collapse">
-				<li><a href="">HOME</a></li>
-				<li><a href="">SERVICES</a></li>
-				<li><a href="">ABOUT</a></li>
+				<li><a href="#main">HOME</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#about">ABOUT</a></li>
 				<li><a href="donate.html">DONATE</a></li>
 				<li><a href="volunteer.html">VOLUNTEER</a></li>
-				<li><a href="">CONTACT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 			<button class="donate-btn">Donate Now!</button>
 		</div>
@@ -37,9 +37,9 @@
 	<main>
 		<div id="main">
 			<div id="slideshow">
-				<div class="image1"></div>
-				<div class="image2"></div>
-				<div class="image3"></div>
+				<!-- <div class="image1"></div> -->
+				<!-- <div class="image2"></div> -->
+				<!-- <div class="image3"></div> -->
 			</div>
 			<div id="home">
 				<h2>HELLO</h2>
@@ -51,56 +51,66 @@
 
 		<div id="services">
 			<div class="heading">
-				<h2>OUR</h2>
-				<span>SERVICES</span>
+				<div>
+					<h2>OUR</h2>
+					<span>SERVICES</span>
+				</div>
 			</div>
-			<ul>
-				<li>Female Dog</li>
-				<p>$60.00</p>
-				<li>Female Cat</li>
-				<p>$55.00</p>
-				<li>Male Dog</li>
-				<p>$55.00</p>
-				<li>Male Cat</li>
-				<p>$45.00</p>
-			</ul>
-			<p>Services available at time of surgery:</p>
-			<ul>
-				<li>Vaccines</li>
-				<p>$15.00</p>
-				<li>Deworm</li>
-				<p>$10.00</p>
-				<li>Cat Felv/fiv</li>
-				<p>$25.00</p>
-				<li>Nail Trim</li>
-				<p>$5.00</p>
-				<li>Rabies</li>
-				<p>$15.00</p>
-				<li>Dog heartworm</li>
-				<p>$20.00</p>
-				<li>Microchip</li>
-				<p>$20.00</p>
-				<li>Clean ears</li>
-				<p>$8.00</p>
-			</ul>
+			<div>
+				<ul>
+					<li>Female Dog</li>
+					<p>$60.00</p>
+					<li>Female Cat</li>
+					<p>$55.00</p>
+					<li>Male Dog</li>
+					<p>$55.00</p>
+					<li>Male Cat</li>
+					<p>$45.00</p>
+				</ul>
+				<p>Services available at time of surgery:</p>
+				<ul>
+					<li>Vaccines</li>
+					<p>$15.00</p>
+					<li>Deworm</li>
+					<p>$10.00</p>
+					<li>Cat Felv/fiv</li>
+					<p>$25.00</p>
+					<li>Nail Trim</li>
+					<p>$5.00</p>
+					<li>Rabies</li>
+					<p>$15.00</p>
+					<li>Dog heartworm</li>
+					<p>$20.00</p>
+					<li>Microchip</li>
+					<p>$20.00</p>
+					<li>Clean ears</li>
+					<p>$8.00</p>
+				</ul>
+			</div>
 		</div>
 
 		<div id="about">
 			<div class="layer">
-				<div class="heading">
-					<h2>ABOUT</h2>
-					<span>OUR CLINIC</span>
-				</div>
 				<div>
-					<p>We at Sequatchie Valley Low Cost Spay & Neuter are asking for your partnership to help reverse the serious overpopulation of homeless dogs and cats in Sequatchie Valley of Tennessee. Our clinic's mission is twofold: to provide high quality, low cost, spay and neuter services of dogs and cats as a humane alternative to euthanasia, and to educate the public on the proper care and use of animals.</p>
-					<p>We are relying on the generous support of the community to achieve this goal. We would be most grateful if you would consider providing a donation of $5 or more to our non-profit organization. Your support is critical to our tackling a problem that is already out of control. With your financial commitment, we can make a difference for the safety of our animals and our communities. And as partners, we promise transparency with regular updates regarding our progress on all fronts.</p>
+					<div class="heading">
+						<h2>ABOUT</h2>
+						<span>OUR CLINIC</span>
+					</div>
+					<div>
+						<p>We at Sequatchie Valley Low Cost Spay & Neuter are asking for your partnership to help reverse the serious overpopulation of homeless dogs and cats in Sequatchie Valley of Tennessee. Our clinic's mission is twofold: to provide high quality, low cost, spay and neuter services of dogs and cats as a humane alternative to euthanasia, and to educate the public on the proper care and use of animals.</p>
+						<p>We are relying on the generous support of the community to achieve this goal. We would be most grateful if you would consider providing a donation of $5 or more to our non-profit organization. Your support is critical to our tackling a problem that is already out of control. With your financial commitment, we can make a difference for the safety of our animals and our communities. And as partners, we promise transparency with regular updates regarding our progress on all fronts.</p>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div id="contact">
-			<h2>KEEP</h2>
-			<span>IN TOUCH</span>
+			<div class="heading">
+				<div>
+					<h2>CONTACT</h2>
+					<span>US</span>				
+				</div>
+			</div>
 			<div>
 				<div class="contact">
 					<h3>OUR</h3> <span>ADDRESS</span>
@@ -130,20 +140,16 @@
 					<h3>CONTACT</h3> <span>US</span>
 					<form action="index_submit" method="get" accept-charset="utf-8">
 						<div class="form-element">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name">
+							<input type="text" name="name" id="name" placeholder="Name">
 						</div>
 						<div class="form-element">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email">
+							<input type="text" name="email" id="email" placeholder="Email">
 						</div>
 						<div class="form-element">
-							<label for="subject">Subject</label>
-							<input type="text" name="subject" id="subject">
+							<input type="text" name="subject" id="subject" placeholder="Subject">
 						</div>
 						<div class="form-element">
-							<label for="message">Message</label>
-							<textarea id="message" name="message"></textarea>
+							<textarea id="message" name="message" placeholder="Message"></textarea>
 						</div>
 						<div class="form-element">
 							<input type="submit" value="Submit">
